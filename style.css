@@ -21,6 +21,13 @@
   color: #333;
   background-color: #f8f8f8;
 }
+
+.page__container {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
+}
+
 .header {
   display: block;
   width: 500px;
@@ -28,9 +35,11 @@
 
   text-align: right;
 }
+
 .header__image {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
@@ -42,20 +51,18 @@
   }
 
 }
-.page-container {
-  display: block;
-  width: 500px;
-  margin: 0 auto 0;
-}
+
 .task-text {
   flex-grow: 1;
 
   display: inline-block;
   width: 56%;
 }
+
 .task-creation__wrapper {
   display: flex;
 }
+
 .incomplete-tasks__list, 
 .completed-tasks__list {
   margin: 0;
@@ -83,6 +90,7 @@
   border: 0px;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
