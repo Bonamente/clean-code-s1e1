@@ -170,14 +170,14 @@
 
 /* Edit Task */
 .task-item .task-text:not(.task-label) {
-  display:none
+  display: none
 }
 
 .task-item--editable .task-text:not(.task-label) {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-item--editable .task-label {
-  display:none;
+  display: none;
 }
