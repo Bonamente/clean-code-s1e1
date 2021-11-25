@@ -39,7 +39,8 @@
 .task-creation__wrapper {
   display: flex;
 }
-.incomplete-tasks__list, .completed-tasks__list {
+.incomplete-tasks__list, 
+.completed-tasks__list {
   margin: 0;
   padding: 0px;
 }
