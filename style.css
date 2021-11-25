@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
@@ -14,7 +14,7 @@ body {
   width: 100%;
 }
 .header__link {
-  font-family: "Fantasy", cursive;
+  font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
